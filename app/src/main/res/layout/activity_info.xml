@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/infoicon"
+            android:layout_gravity="center"/>
+        <TextView
+            android:text="Tentang Aplikasi"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Aplikasi MyInput adalah aplikasi sederhana untuk mengelola data mahasiswa. Fitur yang tersedia meliputi:\n\n- Input Data Mahasiswa\n- Lihat Data\n- Update Data\n- Hapus Data\n\nAplikasi ini dibuat sebagai bagian dari ujikom Junior Mobile Programmer."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Dibuat oleh:\nNama: Tafrikhan Rizki Praditya\nTahun: 2025"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
