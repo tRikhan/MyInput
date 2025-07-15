@@ -23,7 +23,3 @@ Aplikasi Android sederhana untuk mengelola data mahasiswa.
 3.  **Jalankan Aplikasi:**
     Tunggu hingga proses Gradle sync selesai, lalu jalankan aplikasi pada emulator atau perangkat Android fisik.
 
-
-## Lisensi
-
-Proyek ini bertujuan.
